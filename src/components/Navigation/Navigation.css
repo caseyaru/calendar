@@ -1,0 +1,32 @@
+.Navigation {
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav__button {
+    background-color: white;
+    border-radius: 30%;
+    border: none;
+    min-width: 10%;
+    min-height: 60px;
+    color: black;
+    cursor: pointer;
+}
+
+.nav__button_type_date {
+    padding: 5px 10px;
+    border-radius: 20px;
+    min-width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__date {
+    margin: 0 auto 0;
+    padding-top: 10px;
+    font-size: 26px;
+}
